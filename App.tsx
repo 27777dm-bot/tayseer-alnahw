@@ -613,6 +613,23 @@ function Home() {
             </button>
           ))}
         </div>
+        <div 
+  onClick={() => setLocation('/alfiya')}
+  className="group relative bg-[#FDFBF7] border border-[#E6DFD5] rounded-xl p-5 hover:border-[#8C7A6B] transition-all duration-300 cursor-pointer shadow-sm hover:shadow-md flex items-center justify-between w-full mt-3"
+>
+  <div className="flex items-center gap-4">
+    <div className="w-12 h-12 rounded-lg bg-[#F4EFEB] flex items-center justify-center text-[#594A3C] group-hover:bg-[#594A3C] group-hover:text-white transition-colors duration-300">
+      <Feather className="w-6 h-6" />
+    </div>
+    <div>
+      <h3 className="text-lg font-bold text-[#2C241D] font-serif">ألفية ابن مالك</h3>
+      <p className="text-sm text-[#7A6A5C]">متون النحو والصرف وقواعدها المركزية</p>
+    </div>
+  </div>
+  <div className="w-9 h-9 rounded-full bg-[#F4EFEB] flex items-center justify-center text-[#594A3C] group-hover:translate-x-[-4px] transition-transform duration-300">
+    <ArrowLeft className="w-5 h-5" />
+  </div>
+</div>
         <div className="rise-in delay-5 mt-12 flex items-center gap-2 text-xs text-[hsl(var(--muted-foreground))]" data-testid="text-study-note">
           <BookOpen size={15} strokeWidth={1.5} aria-hidden="true" />
           <span>قاعدةٌ تُفهم، ومثالٌ يُثبتها</span>
