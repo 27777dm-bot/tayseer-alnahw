@@ -9,7 +9,7 @@ const port = Number(rawPort);
 
 
 export default defineConfig({
-  base: './',
+  base: basePath,
   plugins: [
     react(),
     
