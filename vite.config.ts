@@ -9,7 +9,7 @@ const port = Number(rawPort);
 
 
 export default defineConfig({
-  base: '/tayseer-alnahw/',
+  base: './',
   plugins: [
     react(),
     
