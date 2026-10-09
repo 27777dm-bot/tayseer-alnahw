@@ -12,7 +12,6 @@ export default defineConfig({
   base: '/tayseer-alnahw/',
   plugins: [
     react(),
-    tailwindcss(),
     
     ...(process.env.NODE_ENV !== 'production' &&
     process.env.REPL_ID !== undefined
